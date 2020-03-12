@@ -122,7 +122,7 @@ def getStats(link):
                 result = list()
                 break
 
-for link in links:
+for link in getLinks():
     getBasicInfo(link), getStats(link)
 
 # commit changes made to the database and close the connection
